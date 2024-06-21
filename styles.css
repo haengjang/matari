@@ -1,0 +1,87 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.large-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card,
+.table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.img-fluid {
+    border-radius: 8px;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: left;
+}
+
+.accordion-button:hover {
+    background-color: #e2e6ea;
+}
+
+.accordion-item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-body {
+    background-color: #fff;
+    color: #333;
+}
+
+.accordion-header {
+    margin-bottom: 0;
+}
+
+.accordion {
+    background-color: #f1f3f5;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.accordion .accordion-button::after {
+    margin-left: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion .accordion-button[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.calculator {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.calculator .form-group {
+    margin-bottom: 1.5rem;
+}

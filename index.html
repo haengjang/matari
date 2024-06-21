@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>렌딩페이지 샘플</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header class="bg-white shadow">
+        <div class="container d-flex justify-content-between align-items-center py-4">
+            <div class="d-flex align-items-center">
+                <img src="https://placehold.co/100x40" alt="Quip logo" class="h-10">
+                <p class="ml-3 mb-0">사이즈 조절 가능합니다</p>
+            </div>
+            <nav>
+                <a class="text-dark mx-2" href="#section1">섹션1</a>
+                <a class="text-dark mx-2" href="#section2">섹션2</a>
+                <a class="text-dark mx-2" href="#section3">섹션3</a>
+                <a class="text-dark mx-2" href="#section4">섹션4</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 메인 콘텐츠 -->
+    <main>
+        <!-- 히어로 섹션 -->
+        <section id="section1" class="py-5 bg-light text-center">
+            <div class="container">
+                <h1 class="mb-4">메인컨텐츠 1 섹션</h1>
+                <p class="mb-4">배너 사이즈 및 사진 추가 가능합니다</p>
+                <button class="btn btn-primary mx-2 mb-3 btn-scroll" data-target="#bannerSection">자세히 알아보기</button>
+                <button class="btn btn-success mx-2 mb-3 btn-scroll" data-target="#pricingTable">단가표 보기</button>
+                <p class="mb-4">자세히 알아보기 버튼 클릭 시 배너 예시로 스크롤 이동됩니다.</p>
+                <p class="mb-4">자세히 알아보기 버튼은 pop-up 또는 link로 이동 가능합니다</p>
+                <img src="https://placehold.co/800x400" alt="Quip collaboration illustration" class="img-fluid">
+            </div>
+        </section>
+
+        <!-- 소개 섹션 -->
+        <section id="section2" class="py-5">
+            <div class="container text-center">
+                <h2 class="mb-4">메인컨텐츠 2 섹션</h2>
+                <p class="mb-4">사진 사이즈 및 컨텐츠 내용 수정 가능문의 버튼도 구현 가능합니다</p>
+                <a href="#" class="btn btn-primary mx-2 mb-3 link-popup">번호 링크</a>
+                <a href="#" class="btn btn-secondary mx-2 mb-3 link-popup">카카오톡 링크</a>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <img src="https://placehold.co/800x400" alt="Account Plan illustration" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <ul class="list-unstyled">
+                            <li class="mb-3">설명 및 링크 생성 pop-up 기능 또한 들어갈 수 있습니다</li>
+                            <li class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis exercitationem harum fuga adipisci illo quam autem, quae repellendus aliquid dignissimos?</li>
+                            <li class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reprehenderit consectetur, tempora cupiditate assumenda architecto.</li>
+                            <li class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis doloribus dolores nam assumenda expedita?</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio consectetur asperiores eius, rem nam.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 기능 섹션 -->
+        <section id="section3" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="mb-5">메인컨텐츠 3 섹션</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <h3>하단 이미지 첨부 가능</h3>
+                        <p>제품 설명이나 추가 삭제 가능합니다</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h3>각종 동적 움직임 가능</h3>
+                        <p>각종 동적인 페이지 구성 가능합니다<br> 배너 이동 팝업 등기능 구현 가능합니다</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h3>부스트트랩 및 HTML로 작성되었습니다</h3>
+                        <p>기타 추가적인 기능 및 원하는 언어 선택 가능합니다 <br> 기능의 정도에 따라 추가금액 발생할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 리소스 섹션 -->
+        <section id="section4" class="py-5">
+            <div class="container text-center">
+                <h2 class="mb-5">메인컨텐츠 4 섹션</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow">
+                            <img src="https://placehold.co/200X200" alt="Resource 1 image" class="card-img-top">
+                            <div class="card-body">
+                                <p>상품 설명 및 이미지 크기 조절 가능합니다</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow">
+                            <img src="https://placehold.co/200x150" alt="Resource 2 image" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">텍스트 및 이미지 클릭시 링크 이동 구현 가능합니다</h3>
+                                <p class="card-text">상품 자세한 내용은 문의 주세요</p>
+                                <a href="#" class="btn btn-link">상세 페이지 및 페이지 이동</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow">
+                            <img src="https://placehold.co/200x250" alt="Resource 3 image" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow">
+                            <img src="https://placehold.co/200x150" alt="Resource 4 image" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">사이즈 조절 한 모습들입니다</h3>
+                                <p class="card-text">이와 같이 사이즈 조절 및 텍스트 이미지 클릭 시 페이지 이동 혹은 팝업 기능 또한 추가할 수 있습니다</p>
+                                <a href="#" class="btn btn-link">자세히 알아보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 배너 섹션 -->
+        <section id="bannerSection" class="py-5 bg-light text-center">
+            <div class="container">
+                <h2 class="mb-4">배너 예시입니다</h2>
+                <p class="mb-4 large-text">전체 사이즈도 가능하고 여러 사이즈 및 수량 변경 가능합니다</p>
+                <img src="https://placehold.co/1600x400" alt="Banner example" class="img-fluid shadow">
+            </div>
+        </section>
+
+<!-- 단가표 섹션 -->
+<section id="pricingTable" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-3">단가표</h2>
+        <div class="d-flex justify-content-end">
+            <p class="text-muted mb-2">[부가세 포함]</p>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered shadow">
+                <thead>
+                    <tr>
+                        <th>수량</th>
+                        <th>기본 제작(1P 4섹션)</th>
+                        <th>배너 및 디자인 작업</th>
+                        <th>페이지 레이아웃 디자인 변경</th>
+                        <th>페이지 기능 추가</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>₩100,000~</td>
+                        <td>+50,000~</td>
+                        <td>+100,000~</td>
+                        <td>+200,000~</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>₩200,000~</td>
+                        <td>+100,000~</td>
+                        <td>+200,000~</td>
+                        <td>+300,000~</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>₩300,000~</td>
+                        <td>+150,000~</td>
+                        <td>+300,000~</td>
+                        <td>+400,000~</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>₩400,000~</td>
+                        <td>+200,000~</td>
+                        <td>+400,000~</td>
+                        <td>+500,000~</td>
+                    </tr>
+                    <tr>
+                        <td>5개 이상</td>
+                        <td>별도 협의</td>
+                        <td>별도 협의</td>
+                        <td>별도 협의</td>
+                        <td>별도 협의</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="text-center text-muted mt-4">※ 단가표의 가격은 좌측 열을 포함한 합산금액이며, 세부내용에 따라 조정될 수 있습니다.</p>
+    </div>
+</section>
+
+<!-- 단가표 계산기 섹션 -->
+<section id="pricingCalculator" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">단가표 계산기</h2>
+        <div class="calculator shadow p-4">
+            <div class="form-group">
+                <label for="quantity">수량</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button" id="decreaseQuantity">-</button>
+                    </div>
+                    <input type="text" class="form-control text-center" id="quantity" value="1" readonly>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="increaseQuantity">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="basicPrice">기본 제작(1P 4섹션)</label>
+                <input type="text" class="form-control text-right" id="basicPrice" value="100000" readonly>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="designWork">
+                <label class="form-check-label" for="designWork">배너 및 디자인 작업 (+50,000)</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="layoutChange">
+                <label class="form-check-label" for="layoutChange">페이지 레이아웃 디자인 변경 (+100,000)</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="functionAdd">
+                <label class="form-check-label" for="functionAdd">페이지 기능 추가 (+200,000)</label>
+            </div>
+            <div class="form-group">
+                <label for="totalPrice">최종 금액</label>
+                <input type="text" class="form-control text-right" id="totalPrice" value="100000" readonly>
+            </div>
+        </div>
+        <p class="text-center text-muted mt-4">※ 단가표 계산기 가격은 단가표 기준으로 산정한 금액이며 세부내용에 따라 조정될 수 있습니다.</p>
+    </div>
+</section>
+
+        <!-- 아코디언 섹션 -->
+        <section id="faq" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">FAQ</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Q. 기본 제작 기준이 어떻게 되나요?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                A. 1페이지 기준 현재 보고 계시는 페이지 길이까지입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Q. 작업 기간은 몇일인가요?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                A. 평균 7일 안내드리고 있습니다, 난이도나 작업 정도에 따라 변경될 수 있습니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Q. 배너 및 디자인 작업이 뭔가요?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                A. 배너 디자인이나 홈페이지에 보이는 디자인을 제작하는 서비스입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Q. 페이지 레이아웃 디자인 변경 작업이 뭔가요?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                A. 페이지의 틀, 즉 CSS로 페이지의 레이아웃 구성을 변경하는 서비스입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Q. 페이지 기능 추가가 뭔가요?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                A. 샘플 외의 페이지의 기능을 JS로 추가하는 서비스 입니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h5>회사정보</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">회사소개</a></li>
+                        <li><a href="#" class="text-white-50">기타 설명</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>링크 가능</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">다른 페이지 연결 가능합니다</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>고객센터</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">고객센터 페이지 연결 가능</a></li>
+                        <li><a href="#" class="text-white-50">기타 페이지도 연결 가능합니다</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>랜딩페이지</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">랜딩페이지 제작입니다</a></li>
+                        <li><a href="#" class="text-white-50">연락처 및 이메일 첨부</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-white-50">기타 문의 사항은 <span class="font-weight-bold">접속 사이트에서 문의</span> 바랍니다<br>본 페이지는 랜딩페이지로 무단 배포가 불가합니다</p>
+                <p class="text-white-50 mt-4">마타리 컴퍼니 | 383-28-01024<br>matari@kakao.com</p>
+                <p class="text-white-50 mt-4">©Matari Company 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 스크립트 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
