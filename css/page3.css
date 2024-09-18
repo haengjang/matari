@@ -1,0 +1,125 @@
+/* 기본 설정 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* 헤더 스타일 */
+.header {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* 메인 컨텐츠 스타일 */
+.main-content {
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* 텍스트-이미지 섹션 */
+.text-image-section {
+    width: 80vh; /* 너비 80vh */
+    margin: 0 auto; /* 가운데 정렬 */
+    display: flex;
+    justify-content: space-between; /* 좌우 배치 */
+    align-items: center; /* 수직 가운데 정렬 */
+    margin-bottom: 100px;
+}
+
+/* 이미지 컨테이너 */
+.image-container {
+    flex: 1;
+}
+
+/* 이미지 사이즈 조정 */
+.custom-image {
+    /* 이미지 크기를 원하는 대로 조정 가능 */
+    max-width: 100%;
+    height: auto;
+    /* 예시: 너비와 높이 조정을 별도로 할 수 있습니다 */
+    width: 400px; /* 원하는 너비로 조정 가능 */
+    height: 300px; /* 원하는 높이로 조정 가능 */
+}
+
+/* 텍스트 컨테이너 */
+.text-container {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.text-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+/* 컨테이너: width 80% */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.item{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 텍스트 박스 섹션 */
+.text-box-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 텍스트 박스 스타일 */
+.text-box {
+    width: 25%; /* 각 박스의 너비 */
+    margin-bottom: 20px; /* 박스들 간의 아래 간격 */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 230px;
+}
+
+/* 푸터 스타일 */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
